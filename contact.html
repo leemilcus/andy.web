@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+  <nav id="desktop-nav">
+      <div class="logo">andy.web</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+
+<img
+            src="./assets/fb.png"
+            alt="My Facebook Account"
+            class="icon"
+            onclick="location.href='https://www.facebook.com/lee.milcus04/'"
+          />
+          </img>
+
+<img
+            src="./assets/insta.png"
+            alt="My Facebook Account"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/lmilcus_04/'"
+          />
+          </img>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">andy.web</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+   
+    <!--------contact begin--------->
+<section class="location">
+<p class="section__text__p1">I would love to hear from you</p>
+      <h1 class="title">Get In Touch!</h1>
+      
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13218.030963975689!2d18.4805858!3d-34.0821311!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc41b372a759e1%3A0x213fc6aa269137f1!2sShailendra%20Photography!5e0!3m2!1sen!2sza!4v1688037380410!5m2!1sen!2sza"
+     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">
+
+    
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>17 Aruba Road, New World Foundation</h5>
+                    <p>Muizenberg, Cape Town, ZA</p>
+                </span>
+            </div>       
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+27 68 077 9760 </h5>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o" ></i>
+                <span>
+                    <h5>andrewmoyana4@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">  
+            <form action="https://formspree.io/f/xjvqbnlw" method="POST">
+                <h3>GET IN TOUCH WITH US</h3>
+                <input type="text" name="Name" placeholder="Full Name" required>
+                <input type="email" name="Email" placeholder="Email" required>
+                <input type="phone" name="Number" placeholder="Phone Number" required>
+                <textarea rows="6" name="message" placeholder="Message"></textarea>
+                <button class="contact-hero-btn red-btn" type="submit">SUBMIT</button>
+            </form>
+        </div>
+    </div>    
+</section>
+<!--------contact end--------->
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Andrew Moyana. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
