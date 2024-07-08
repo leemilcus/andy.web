@@ -149,9 +149,10 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
+  padding-top: 1vh;
+  height: 100vh;
+  margin: 0 5rem
+  ;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -544,7 +545,7 @@ h1{
 
 p{
   color: #777; 
-  font-size: 14px;
+  font-size: 18px;
   font-weight:300 ; 
   line-height: 22px;
   padding: 10px;
@@ -636,6 +637,11 @@ h3{
 .testmonials-col .fa{
     color: #ee9d34;
 }
+
+
+
+
+
 
 
 
